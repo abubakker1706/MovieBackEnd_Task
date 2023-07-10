@@ -13,7 +13,7 @@ mongoose.connect(process.env.DB_URL, { useNewUrlParser: true, useUnifiedTopology
     console.log('Connected to MongoDB');
     insertMovies();
   })
-  .catch((error) => console.log('Error connecting to MongoDB:', error));
+  .catch((error) => console.log('Error connecting to Mongo:', error));
 
 
 
